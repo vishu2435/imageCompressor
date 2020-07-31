@@ -1,0 +1,36 @@
+.image{
+    width:250px;
+    min-width: 250px;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    background-color: white;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.buttonContainer button{
+background-color: #47A4A5;
+  /* border-color: rgb(255, 177, 153); */
+  /* padding-left: 1.8em; */
+  width: max-content;
+  color: white;
+  height: max-content;
+  line-height: 31px;
+  border-style: none;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+
+}
+.buttonDisabled{
+    opacity: 0.5;
+    cursor: not-allowed !important;
+}

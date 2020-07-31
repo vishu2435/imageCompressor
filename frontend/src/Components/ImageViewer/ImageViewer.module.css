@@ -1,0 +1,10 @@
+.imageViewer{
+    display: flex;
+    height: 60%;
+    width: 100%;
+    
+    background-color: aliceblue;
+    margin-top: 80px;
+    overflow-x: scroll;
+
+}
